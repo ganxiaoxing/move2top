@@ -1,28 +1,30 @@
+<!--
+ * @Description: 
+ * @Version: 2.0
+ * @Autor: 
+ * @Date: 2021-07-14 14:40:35
+ * @LastEditors: gxx
+ * @LastEditTime: 2021-07-14 15:05:50
+-->
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="main-app">
+    <move2top />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import move2top from '@/lib/move2top/move2top'
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    move2top,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.main-app{
+  height: 3000px;
 }
+
 </style>
