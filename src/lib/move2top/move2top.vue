@@ -4,10 +4,10 @@
  * @Autor: 
  * @Date: 2021-07-14 14:43:02
  * @LastEditors: gxx
- * @LastEditTime: 2021-07-14 15:36:02
+ * @LastEditTime: 2021-07-14 16:37:10
 -->
 <template>
-  <div class="move2top" @click="move" :class="{ hidden: !showIcon }">
+  <div class="move2top" @click="move" :class="{ 'move2top-hidden': !showIcon }">
     <i class="iconfont">&#xe67c;</i>
   </div>
 </template>
@@ -52,7 +52,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .move2top {
   position: fixed;
   z-index: 99999;
@@ -63,7 +63,7 @@ export default {
   -webkit-transition: all 0.3s; /* Safari 和 Chrome */
 }
 
-.hidden {
+.move2top-hidden {
   opacity: 0;
   transform: translateY(30px);
 }

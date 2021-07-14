@@ -1,4 +1,4 @@
-import move2top from "./move2top";
+import move2top from './move2top'
 
 move2top.install = function(Vue) {
   Vue.component("move2top", move2top);
