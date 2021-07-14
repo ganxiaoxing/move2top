@@ -1,7 +1,7 @@
 {
   "name": "move2top",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.4",
+  "main": "src/lib/move2top/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

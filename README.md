@@ -1,24 +1,11 @@
 # move2top
-
+a vue component for moving top. use in your .vue files directly.
 ## Project setup
 ```
-npm install
+npm install move2top
 ```
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
-```
+<move2top />
 
-### Compiles and minifies for production
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
